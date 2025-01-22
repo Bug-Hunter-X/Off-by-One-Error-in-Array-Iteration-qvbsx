@@ -1,0 +1,1 @@
+This repository contains a simple Java program that demonstrates a common off-by-one error when iterating over an array. The error occurs because the loop condition `i <= arr.length` attempts to access the element at index 5 of an array with only 5 elements (valid indices are 0 to 4).  The solution demonstrates the correct way to iterate, avoiding the out-of-bounds access.
